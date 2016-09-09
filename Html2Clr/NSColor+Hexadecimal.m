@@ -55,7 +55,7 @@
                        @"of the form #RBG, #ARGB, #RRGGBB, or #AARRGGBB",
                        hexString];
   }
-  return [NSColor colorWithRed:red green:green blue:blue alpha:alpha];
+  return [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
 }
 
 + (CGFloat)colorComponentFrom:(NSString *)string
